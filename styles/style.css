@@ -1,0 +1,12 @@
+:root {
+    --dummy-var: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--dummy-var);
+}
