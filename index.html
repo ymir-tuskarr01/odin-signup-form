@@ -79,6 +79,73 @@
     </script>
 </head>
 <body>
-
+    <div id="div_main">
+        <div class="header">
+            <!-- <img src="../assets/images/halie-west-25xggax4bSA-unsplash.jpg" alt="header_bg_image" class="header_bg_image"> -->
+            <div class="header_logo">
+                <img src="assets/images/odin-lined.png" alt="odin-logo" class="header_logo_image">
+                <div class="header_text">ODIN</div>
+            </div>
+            <div class="header_credit">
+                <p>
+                    Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                </p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right_text">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+                <p>Sign up <em>now</em> to get started.</p>
+                <p> You <em>know</em> you want to.</p>
+            </div>
+            <div class="right_form">
+                <form>
+                    <fieldset>
+                        <div class="right_form_fillin">
+                            <p>Let's do this!</p>
+                            <div>
+                                <div>
+                                    <label for="fname">FIRST NAME</label>
+                                    <input type="text" id="fname" name="first_name" placeholder="First Name" required />
+                                    <span></span>
+                                </div>
+                                <div>
+                                    <label for="lname">LAST NAME</label>
+                                    <input type="text" id="lname" name="last_name" placeholder="Last Name" required />
+                                    <span></span>
+                                </div>
+                                <div>
+                                    <label for="email">EMAIL</label>
+                                    <input type="email" id="email" name="email" placeholder="unsplash@odin.com" required />
+                                    <span></span>
+                                </div>
+                                <div>
+                                    <label for="phone">PHONE NUMBER</label>
+                                    <input type="tel" id="phone" name="phone" placeholder="phone" pattern="^(\d{3})-(\d{8})|^(\d{3})(\d{8})|^(\d{3})(\d{8})|^(\d{3})\s(\d{8})|^(\d{3})\s(\d{4}\s\d{4})" required />
+                                    <span></span>
+                                </div>
+                                <div>
+                                    <label for="password">PASSWORD</label>
+                                    <input type="password" id="password" class="error" name="password" placeholder="********" required />
+                                    <span></span>
+                                </div>
+                                <div>
+                                    <label for="cpassword">CONFIRM PASSWORD</label>
+                                    <input type="password" id="cpassword" class="error" name="cpassword" placeholder="********" required />
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right_form_submit">
+                            <button type="submit">Create Account</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="right_login">
+                <p>Already have an account? <span class="right_login_text">Log in</span></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

@@ -1,5 +1,13 @@
-@font-face {
-    font-family: "test";
-    src: url();
-    font-size: 1rem;
+:root {
+    --def_font_size: 1.3rem;
+    --def_letter_spacing: 1px;
 }
+
+@font-face {
+    font-family: "norsebold";
+    src: url("../assets/fonts/norse-bold-webfont.woff2") format("woff2"), url("../assets/fonts/norse-bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
